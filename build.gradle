@@ -13,4 +13,10 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version: '1.9.13'
+    compile group: 'com.google.http-client', name: 'google-http-client-jackson2', version: '1.23.0'
+    compile group: 'com.google.oauth-client', name: 'google-oauth-client-jetty', version: '1.23.0'
+    compile group: 'com.google.collections', name: 'google-collections', version: '1.0'
+    compile group: 'com.google.apis', name: 'google-api-services-youtube', version: 'v3-rev198-1.23.0'
 }
